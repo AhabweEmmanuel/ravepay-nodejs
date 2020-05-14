@@ -11,6 +11,7 @@ var spec =  morx.spec()
 				.build('narration', 'required:false,eg:New transfer')
                 .build('currency', 'required:required,eg:NGN')
                 .build('reference', 'required:required,eg:mk-902837-jk')
+		.build('beneficiary_name', 'required:required,eg:emma')
                 .end();
                 
 
